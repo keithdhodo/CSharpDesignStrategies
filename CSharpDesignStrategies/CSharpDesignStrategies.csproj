@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="SingleResponsibilityPrincipleExamples\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NodaTime">
+      <Version>2.2.2</Version>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>
